@@ -25,3 +25,21 @@ for(const key in user){
     }
 }
 
+console.log('Propriedades do objeto user:', Object.keys(user));
+console.log('Valores das propriedades do objeto user:', Object.values(user));
+
+//Exibir symbols de um objeto 
+console.log('Symbols registrados no objeto user:', Object.getOwnPropertySymbols(user));
+
+// Acessando todas as propriedades do objeto
+console.log('Todas as propriedades do objeto user:', Reflect.ownKeys(user));
+
+// Criando um enum
+const directions = {
+    UP      : Symbol('UP'),
+    DOWN    : Symbol('DOWN'),
+    LEFT    : Symbol('LEFT'),
+    RIGHT   : Symbol('RIGHT')
+};
+
+console.log(directions);w
