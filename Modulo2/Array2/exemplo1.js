@@ -70,8 +70,8 @@
 
 // Splice -> Não é imutavel e ao contrário do 'slice' remove o(s) elemento(s) 
 
-const ar = [1, 2, 3, 4, 5];
+//const ar = [1, 2, 3, 4, 5];
 
-console.log(ar.splice(2));  
-console.log(ar.splice(0, 0, 'first')); // Adiciona na posição 0
-console.log(ar);
+// console.log(ar.splice(2));  
+// console.log(ar.splice(0, 0, 'first')); // Adiciona na posição 0
+// console.log(ar);
